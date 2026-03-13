@@ -1,0 +1,7 @@
+version: '3.4'
+services:
+  catalogdb:
+    image: postgres  # Removed the space here
+
+volumes:
+  postgres_catalog:
